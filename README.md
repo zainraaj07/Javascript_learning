@@ -20,3 +20,10 @@ This repository documents my hands-on JavaScript learning journey. It includes p
 * Working with arrays inside objects
 * Creating and accessing nested objects
 
+### ✅ — Operators
+Arithmetic, Assignment, Comparison, and Logical Operators
+Difference between == and ===
+Conditional logic using operators
+Practical exercises: Even/Odd, Result, Voting, Login, and Discount systems
+Combining Objects with Operators and Conditions
+
