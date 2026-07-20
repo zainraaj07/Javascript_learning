@@ -51,5 +51,29 @@ Learned and practiced **explicit type conversion** in JavaScript, focusing on co
 * Extracted integer values using `parseInt()`
 * Preserved decimal values using `parseFloat()`
 
+* # 🎓Mini Project Student Result Management System
+
+A console-based JavaScript mini project that simulates a student result management system. It calculates marks, percentage, grades, pass/fail status, verifies student documents, and determines scholarship eligibility using core JavaScript concepts.
+
+## ✨ Features
+
+* Student data management using nested objects
+* Total marks and percentage calculation
+* Pass/Fail evaluation
+* Grade assignment
+* Document verification
+* Scholarship eligibility check
+
+## 🛠️ Concepts Used
+
+* Variables & Data Types
+* Objects & Nested Objects
+* Arithmetic, Comparison & Logical Operators
+* Conditional Statements (`if`, `else if`, `else`)
+* Boolean (Truthy/Falsy)
+* Strict Mode
+
+
+
 
 
