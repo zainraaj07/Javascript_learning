@@ -73,6 +73,15 @@ A console-based JavaScript mini project that simulates a student result manageme
 * Boolean (Truthy/Falsy)
 * Strict Mode
 
+* ### ✅ Day 4 — Conditional Statements & Switch
+
+* `if`, `else if`, and `else` for conditional logic
+*  `switch`, `case`, `break`, and `default`
+* Built a Student Grade & Remarks System
+* Implemented percentage-based grade calculation
+* Generated performance remarks using `switch`
+* Combined objects and conditional logic in a practical exercise
+
 
 
 
