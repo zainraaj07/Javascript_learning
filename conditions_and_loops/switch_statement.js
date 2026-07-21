@@ -56,3 +56,30 @@ console.log("Student: ",student.name);
 console.log("Percentage: ", student.percentage);
 console.log("Grade: ", grade);
 console.log("Remarks:", remarks);
+
+
+// ------------------------------------------
+//  Store System
+// ------------------------------------------
+
+const shop = {
+    name: "Zain Store",
+    day: "Sunday"
+};
+
+switch (shop.day) {
+    case "Monday":
+        console.log(`${shop.name} opens at 9 AM.`);
+        break;
+
+    case "Friday":
+        console.log(`${shop.name} opens at 2 PM.`);
+        break;
+
+    case "Sunday":
+        console.log(`${shop.name} is closed today.`);
+        break;
+
+    default:
+        console.log(`${shop.name} opens at normal timing.`);
+}
