@@ -82,6 +82,24 @@ A console-based JavaScript mini project that simulates a student result manageme
 * Generated performance remarks using `switch`
 * Combined objects and conditional logic in a practical exercise
 
+* ## Day 5 — For Loops
+
+Learned how to use JavaScript `for` loops to repeat code, iterate through numbers, and process data stored in arrays and objects. Practiced combining loops with conditional statements and operators to solve logic-based problems and build small programs.
+
+### Key Concepts
+
+* `for` loop syntax, initialization, condition, and update
+* Increment and decrement operations
+* Iterating through arrays using indexes
+* Accessing and processing array elements
+* Combining loops with `if/else` conditions
+* Working with objects and arrays together
+* Performing calculations inside loops
+* Building basic logic-based programs and result systems
+
+These exercises helped strengthen the understanding of iteration, conditional logic, data handling, and problem-solving in JavaScript.
+
+
 
 
 
