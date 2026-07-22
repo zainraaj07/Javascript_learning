@@ -99,6 +99,16 @@ Learned how to use JavaScript `for` loops to repeat code, iterate through number
 
 These exercises helped strengthen the understanding of iteration, conditional logic, data handling, and problem-solving in JavaScript.
 
+### While Loop Practice
+
+Implemented practical exercises using JavaScript `while` loops to strengthen iteration, condition handling, counters, and loop control.
+
+* Reverse counting from 10 to 1
+* Calculating the sum of numbers from 1 to 10
+* Generating a multiplication table
+* Filtering and counting even numbers within a given range
+
+
 
 
 
