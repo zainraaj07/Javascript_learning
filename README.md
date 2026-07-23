@@ -108,6 +108,36 @@ Implemented practical exercises using JavaScript `while` loops to strengthen ite
 * Generating a multiplication table
 * Filtering and counting even numbers within a given range
 
+* # Day 6 — JavaScript Conditions & Loops
+
+A practical collection of JavaScript exercises focused on decision-making and iteration. This section demonstrates how conditions and loops control program flow and handle repetitive tasks efficiently.
+
+## Topics Covered
+
+### Conditions
+
+* `if`, `else if`, and `else`
+* `switch` statements
+* Ternary operator
+
+### Loops
+
+* `for` loop
+* `while` loop
+* `do...while` loop
+* `break` and `continue`
+* Nested loops
+
+## Key Concepts Practiced
+
+* Making decisions using conditional statements
+* Repeating tasks efficiently with different loop structures
+* Controlling loop execution using `break` and `continue`
+* Combining conditions with loops
+* Working with nested iterations
+
+
+
 
 
 
