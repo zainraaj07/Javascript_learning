@@ -160,6 +160,35 @@ This directory contains my practical implementation of **JavaScript Functions**,
 * Voting Eligibility Checker
 * Basic Calculator
 
+* # JavaScript Arrow Functions 🚀
+
+This directory contains my practical implementation of **Arrow Functions (ES6)**, focusing on writing concise, modern, and reusable JavaScript code. Through real-world coding exercises, I explored how arrow functions simplify function syntax while strengthening problem-solving and logical thinking.
+
+## 📚 What I Learned
+
+* **Arrow Functions** – A shorter and cleaner syntax for writing JavaScript functions introduced in ES6.
+* **Parameters & Arguments** – Passing and processing data within functions.
+* **Conditional Statements** – Implementing decision-making using `if`, `else if`, and nested `if`.
+* **Arithmetic & Comparison Operators** – Performing calculations and evaluating conditions.
+* **Logical Operators** – Combining multiple conditions using `&&` and boolean values.
+* **Code Reusability** – Organizing logic into reusable functions for better maintainability.
+
+## 💻 Practice Tasks
+
+* 🎓 Student Result Calculator
+* 🔐 User Login Validation System
+* ⚡ Electricity Bill Calculator with Slab Rates & Surcharge
+
+## 🎯 Skills Strengthened
+
+* Arrow Function Syntax
+* Problem Solving
+* Decision Making
+* Nested Conditions
+* Real-World Logic Building
+* Clean & Readable JavaScript Code
+
+
 
 
 
