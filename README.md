@@ -136,7 +136,29 @@ A practical collection of JavaScript exercises focused on decision-making and it
 * Combining conditions with loops
 * Working with nested iterations
 
+# Day - 7 JavaScript Functions 🚀
 
+This directory contains my practical implementation of **JavaScript Functions**, demonstrating how reusable code can simplify problem-solving and improve code organization.
+
+## 📚 Topics Covered
+
+* **Function Declaration** – Defines a reusable function using the `function` keyword.
+* **Function Expression** – Stores a function inside a variable for flexible usage.
+* **Parameters** – Receive input values when a function is defined.
+* **Arguments** – Actual values passed to a function when it is called.
+* **Conditional Statements (`if...else`)** – Execute different blocks of code based on conditions.
+* **Arithmetic Operators** – Perform mathematical calculations such as addition and multiplication.
+* **Comparison Operators** – Compare values and return `true` or `false`.
+* **Code Reusability** – Write logic once and reuse it whenever needed.
+
+## 💻 Practice Programs
+
+* Greeting User
+* Rectangle Area Calculator
+* Largest Number Finder
+* Password Strength Checker
+* Voting Eligibility Checker
+* Basic Calculator
 
 
 
