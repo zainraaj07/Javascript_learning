@@ -38,6 +38,27 @@ calculateResult(80,87,57,39,90);
 
 
 
+// ------------------------------------------
+// Arrow Function - Even or Odd Checker
+// ------------------------------------------
+
+const checkEvenOdd = (number) => {
+
+    if (number % 2 === 0) {
+        return "Even Number";
+    } else {
+        return "Odd Number";
+    }
+};
+
+// Function Call
+let result = checkEvenOdd(15);
+
+console.log("Number: 15");
+console.log("Result: " + result);
+
+
+
 // ==========================================
 // 2 — User Login Validation
 // ==========================================
