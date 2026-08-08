@@ -31,7 +31,7 @@ const calculateResult = (mark1, mark2, mark3, mark4, mark5) => {
    console.log("Obtained Marks: ", obtainedMarks);
    console.log("Percentage: ",percentage);
    console.log("Grade: ", grade);
-    console.log("");
+   console.log("");
 };
 
 calculateResult(80,87,57,39,90);
