@@ -212,6 +212,32 @@ const totalPrice = (price, quantity) => {
 console.log(totalPrice(400, 7));
 // Output: 2800
 ```
+# JavaScript Functions — Return Statement 🚀
+
+Practice focused on the **`return` statement** and its role in making JavaScript functions reusable and capable of producing values for further operations.
+
+## 📚 Concept
+
+The **`return` statement** terminates a function and sends a value back to the code that called the function. Unlike `console.log()`, which only displays a value, `return` allows the result to be **stored, reused, modified, or passed into another operation**.
+
+### 🔹 Return Value
+
+A function can process the received inputs and return the resulting value. This makes the function **reusable and independent of direct output**.
+
+## 🛠️ Practice Covered
+
+* **Shopping Bill:** Calculated the total price using price and quantity, then reused the returned value in another calculation.
+* **Employee Salary:** Calculated the final salary by combining basic salary and bonus.
+* Practiced passing multiple arguments and receiving multiple parameters.
+* Used arrow functions with returned values.
+* Compared the purpose of `return` with `console.log()`.
+
+## 🎯 Key Takeaway
+
+`console.log()` **displays** a value, while `return` **provides a value back to the program** for further use.
+
+Understanding return values is essential for writing **modular, reusable, and maintainable JavaScript code** and provides a foundation for concepts such as **callbacks, array methods, higher-order functions, and React.js**.
+
 
 
 
