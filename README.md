@@ -188,6 +188,33 @@ This directory contains my practical implementation of **Arrow Functions (ES6)**
 * Real-World Logic Building
 * Clean & Readable JavaScript Code
 
+# Day - 8 JavaScript Functions 🚀
+
+Practice focused on **JavaScript Functions**, with an emphasis on **parameters, arguments, function declarations, and ES6 arrow functions**.
+
+## 📚 What I Practiced
+
+* **Function Declarations** — created and invoked functions using the `function` keyword.
+* **Parameters & Arguments** — understood how functions receive and work with dynamic values.
+* **Arrow Functions** — practiced the modern ES6 syntax for writing concise functions.
+* **Multiple Parameters** — used multiple inputs to perform calculations and return results.
+* **Return Values** — learned how functions can process data and return reusable results.
+
+## 💻 Practical Implementation
+
+Created a simple `greet()` function to understand the relationship between parameters and arguments. Then, implemented an arrow function to calculate the total price using `price` and `quantity`.
+
+```js
+const totalPrice = (price, quantity) => {
+    return price * quantity;
+};
+
+console.log(totalPrice(400, 7));
+// Output: 2800
+```
+
+
+
 
 
 
