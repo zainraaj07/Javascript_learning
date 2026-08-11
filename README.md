@@ -238,6 +238,73 @@ A function can process the received inputs and return the resulting value. This 
 
 Understanding return values is essential for writing **modular, reusable, and maintainable JavaScript code** and provides a foundation for concepts such as **callbacks, array methods, higher-order functions, and React.js**.
 
+* ### ✅ Day 9 — Default & Rest Parameters
+
+A practical collection of JavaScript exercises focused on building reusable functions and understanding modern function concepts through real-world examples.
+
+## Topics Covered
+
+* Arrow Functions
+* Function Parameters & Arguments
+* Default Parameters
+* Return Statements
+* Rest Parameters
+* Array `reduce()` Method
+* Conditional Logic
+* Object Return Values
+
+## Exercises
+
+### 1. Student Result Calculator
+
+A reusable function that processes student marks and generates a complete result summary.
+
+**Features:**
+
+* Calculates total obtained marks
+* Calculates percentage
+* Determines Pass/Fail status
+* Uses a default value for total marks
+* Returns results as an object
+
+**Concepts:** Arrow Functions, Default Parameters, `reduce()`, Conditional Statements, Return Objects
+
+---
+
+### 2. Shopping Bill Calculator
+
+A billing function that calculates the total cost based on price, quantity, and discount.
+
+**Features:**
+
+* Calculates subtotal
+* Applies percentage-based discount
+* Calculates final bill
+* Assigns Basic, Regular, or Premium categories
+
+**Concepts:** Default Parameters, Arithmetic Operations, Conditional Logic, Return Objects
+
+---
+
+### 3. Rest Parameter
+
+A function demonstrating how the Rest Parameter can handle a dynamic number of arguments.
+
+```javascript
+const calculateTotal = (...numbers) => {
+    let total = 0;
+
+    for (let number of numbers) {
+        total += number;
+    }
+
+    return total;
+};
+```
+
+The `...numbers` syntax collects all arguments into an array, allowing the function to work with different numbers of values.
+
+
 
 
 
