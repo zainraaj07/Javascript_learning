@@ -304,6 +304,327 @@ const calculateTotal = (...numbers) => {
 
 The `...numbers` syntax collects all arguments into an array, allowing the function to work with different numbers of values.
 
+# ### ✅ Day 10 Callback Functions
+
+My JavaScript learning journey, focused on understanding **Callback Functions** and how functions can be passed as arguments to create flexible and reusable code.
+
+### 📚 Concepts Practiced
+
+* Basic Callback Functions
+* Callbacks with Parameters
+* Callbacks with Multiple Parameters
+* Functions as Arguments
+* Reusable Callback Logic
+* Conditional Logic with Callbacks
+* Return Values
+
+### 💻 Practical Implementations
+
+The practice includes multiple real coding examples such as:
+
+* Executing a function through a callback
+* Processing numbers using callback functions
+* Performing addition and multiplication dynamically
+* Creating a reusable greeting system
+* Checking numbers for **Even/Odd** and **Positive/Negative** conditions
+
+### 🛠️ Tech Stack
+
+**JavaScript (ES6+) • Node.js**
+
+### 🎯 Learning Objective
+
+The goal was to build a strong understanding of **callbacks** and learn how JavaScript functions can be passed, reused, and executed dynamically.
+
+### 📈 Learning Progress
+
+**Functions → Callbacks → Higher-Order Functions → Array Methods → Async JavaScript**
+
+---
+
+### JavaScript Mini Project | Day 10
+
+# 🛒 ZAIN STORE — Advanced Order Processing System
+
+A practical **JavaScript-based e-commerce order processing system** built to apply core JavaScript concepts in a realistic business workflow.
+
+This project goes beyond basic function practice by combining **Callbacks, Higher-Order Functions, Array Methods, Objects, Conditional Logic, Error Handling, and Business Logic** into a complete order-processing flow.
+
+---
+
+## 📌 Project Overview
+
+**ZAIN STORE** simulates an online shopping order from the moment a product is selected until the order is successfully processed and the customer receives a confirmation notification.
+
+The system handles:
+
+**Product Validation → Stock Check → Pricing → Discount → Shipping → Order Creation → Payment → Notification**
+
+The main purpose of this project was to understand how individual JavaScript concepts can work together inside a structured, real-world application.
+
+---
+
+## 🚀 Features
+
+* 🛍️ Product catalog with pricing and stock
+* 👤 Customer & membership management
+* 🔎 Product search by ID
+* 📦 Stock availability validation
+* 💰 Dynamic price calculation
+* 🎁 Premium membership discount
+* 🚚 Location-based shipping
+* 🧾 Dynamic order ID generation
+* 💳 Simulated payment processing
+* 🔐 Transaction ID generation
+* 📨 Customer order notification
+* ⚠️ Basic error handling
+* ⚡ Higher-Order Function implementation
+* 🔍 Product filtering and transformation
+* 📊 Stock status reporting
+
+---
+
+## 🔄 Application Workflow
+
+```text
+                    ZAIN STORE
+                        │
+                        ▼
+                Product Selection
+                        │
+                        ▼
+                Product Validation
+                        │
+                        ▼
+                   Stock Check
+                        │
+                        ▼
+              Calculate Subtotal
+                        │
+                        ▼
+                 Apply Discount
+                        │
+                        ▼
+               Calculate Shipping
+                        │
+                        ▼
+                 Create Order
+                        │
+                        ▼
+               Process Payment
+                        │
+                        ▼
+              Generate Transaction
+                        │
+                        ▼
+              Send Notification
+                        │
+                        ▼
+                Order Completed
+```
+
+---
+
+# 🧠 Concepts & Topics Implemented
+
+## 1. Functions
+
+The application is divided into reusable functions for individual responsibilities such as product searching, discount calculation, shipping, order processing, payment processing, and notifications.
+
+This keeps the code structured and makes individual operations easier to reuse and maintain.
+
+---
+
+## 2. Callback Functions ⭐
+
+Callbacks are the **core concept** of this mini project.
+
+Functions are passed as arguments and executed after specific operations.
+
+The main workflow uses multiple callbacks:
+
+```text
+processOrder()
+      ↓
+processPayment()
+      ↓
+sendNotification()
+```
+
+This creates a callback-driven order workflow where each stage can pass its result to the next operation.
+
+---
+
+## 3. Higher-Order Functions
+
+A custom Higher-Order Function is used to make product filtering reusable.
+
+```javascript
+function getProductsByPrice(products, callback) {
+    return products.filter(function(product) {
+        return callback(product);
+    });
+}
+```
+
+A callback determines which products should be selected, making the filtering logic flexible instead of hard-coded.
+
+---
+
+## 4. Arrays & Objects
+
+Product and customer information is organized using JavaScript **arrays and objects**.
+
+```text
+Products
+   ↓
+Array
+   ↓
+Product Objects
+   ↓
+ID | Name | Category | Price | Stock
+```
+
+This provides a structured way to manage application data.
+
+---
+
+## 5. Array Methods
+
+The project uses several built-in array methods:
+
+### `find()`
+
+Used to locate a product using its ID.
+
+### `filter()`
+
+Used to identify products based on conditions such as price.
+
+### `map()`
+
+Used to extract product names from product objects.
+
+### `forEach()`
+
+Used to iterate through products and display their stock status.
+
+---
+
+## 6. Conditional Logic
+
+`if / else` conditions are used to implement business rules such as:
+
+* Product availability
+* Stock validation
+* Payment success/failure
+* Shipping calculation
+* Stock status
+
+This allows the application to respond differently depending on the current situation.
+
+---
+
+## 7. Error Handling
+
+The callback workflow supports both successful and failed operations.
+
+For example:
+
+```javascript
+callback("Product not found!", null);
+```
+
+and:
+
+```javascript
+callback(null, order);
+```
+
+This demonstrates the common callback pattern of handling **error + result**.
+
+---
+
+## 8. Business Logic
+
+The project implements realistic e-commerce calculations.
+
+### Pricing
+
+```text
+Subtotal = Product Price × Quantity
+```
+
+### Discount
+
+```text
+Discount = Subtotal × Discount Rate
+```
+
+### Final Total
+
+```text
+Total = Subtotal - Discount + Shipping
+```
+
+The calculated values are stored inside a structured order object.
+
+---
+
+## 9. Template Literals
+
+Template literals are used to create dynamic customer notifications and formatted output.
+
+```javascript
+`Hi ${customer.name}, your order ${order.orderId} has been confirmed!`
+```
+
+This allows dynamic application data to be inserted directly into strings.
+
+---
+
+## 10. Dynamic ID Generation
+
+The system generates dynamic identifiers for orders and transactions.
+
+```text
+ORD-XXXXX
+TXN-XXXXX
+```
+
+This simulates how unique references can be generated for business operations.
+
+---
+
+# 💳 Order & Payment Processing
+
+The order system first validates the requested product and available stock.
+
+After successful validation, it calculates the order amount and creates the order object.
+
+The payment function then simulates a successful card transaction and returns a transaction ID through a callback.
+
+Finally, a notification callback confirms the order to the customer.
+
+---
+
+
+
+# 🛠️ Tech Stack
+
+| Technology            | Usage               |
+| --------------------- | ------------------- |
+| **JavaScript (ES6+)** | Application logic   |
+| **Node.js**           | Runtime environment |
+
+---
+
+
+# 🎯 Key Takeaway
+
+This mini project represents my transition from **individual JavaScript exercises to building practical application logic**.
+
+The focus was not only on writing functions, but on understanding how concepts such as **Callbacks, Higher-Order Functions, Array Methods, Objects, and Conditional Logic** can work together to solve a realistic business problem.
 
 
 
