@@ -62,23 +62,31 @@ const additionResult = calculate(4, 1, add);
 console.log("Addition:", additionResult);
 
 
+// ========================================
+// 4. Greeting Callback
+// ========================================
+
 function greet(name, callback) {
     return callback(name);
 }
 
-function Welcome(name) {
-    return "Hello " + name + " , welcome";
-} 
+function welcome(name) {
+    return "Hello " + name + ", welcome!";
+}
 
-console.log(greet("zain", Welcome));
+const greeting = greet("Zain", welcome);
+
+console.log("Greeting:", greeting);
 
 
+// ========================================
+// 5. Even / Odd Callback
+// ========================================
 
 function isEven(number) {
-    if(number % 2 == 0) {
+    if (number % 2 === 0) {
         return "Even";
-    }
-    else {
+    } else {
         return "Odd";
     }
 }
@@ -86,15 +94,23 @@ function isEven(number) {
 function isPositive(number) {
     if (number > 0) {
         return "Positive";
-    }
-    else {
+    } else {
         return "Negative";
     }
 }
 
-function checkNumber (number, callback) {
-     return callback(number);
+function checkNumber(number, callback) {
+    return callback(number);
 }
 
-console.log(checkNumber(-2,isPositive));
-console.log(checkNumber(7, isEven));
+
+// Using isPositive as Callback
+const numberStatus = checkNumber(-2, isPositive);
+
+console.log("Number Status:", numberStatus);
+
+
+// Using isEven as Callback
+const evenStatus = checkNumber(7, isEven);
+
+console.log("Even/Odd:", evenStatus);
