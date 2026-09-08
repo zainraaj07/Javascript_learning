@@ -1272,6 +1272,121 @@ Built as a practical exercise to strengthen JavaScript fundamentals through real
 This project provides hands-on practice with the most commonly used JavaScript Array methods while applying them to a realistic e-commerce product dataset.
 
 
+# JavaScript Objects
+
+This project focuses on understanding **JavaScript Objects**, one of the most important data structures used to store related information in key-value pairs. The practice covers how objects are created, accessed, updated, copied, and handled dynamically.
+
+## 📁 Project Structure
+
+```text
+Objects/
+├── practice1.js
+├── miniproject.js
+└── README.md
+```
+
+## 📚 Practice
+
+The `practice1.js` file introduces the fundamental concepts of Objects through small practical examples.
+
+### Concepts Covered
+
+* **Object Creation** — Creating structured data using key-value pairs.
+* **Property Access & Update** — Reading and modifying object properties using dot and bracket notation.
+* **Dynamic Properties** — Accessing or updating properties when their names are stored in variables.
+* **Object Methods & `this`** — Adding functions inside objects and working with the current object.
+* **Nested Objects** — Managing objects inside other objects.
+* **Object Destructuring** — Extracting properties into separate variables.
+* **`Object.keys()`, `values()` & `entries()`** — Getting object data dynamically.
+* **Object Copying** — Creating copies using the spread operator and other techniques.
+
+## 🚀 Mini Project — Student Management System
+
+The `miniproject.js` file applies these concepts in a simple **Student Management System**.
+
+The project stores student information such as name, age, email, course, address, and skills. It demonstrates how real-world application data can be organized inside objects and then accessed, updated, copied, and displayed dynamically.
+
+### Features
+
+* Student profile management
+* Dynamic property access
+* Adding and updating properties
+* Nested address information
+* Skills array handling
+* Object destructuring
+* Object keys and values
+* Object copying
+* Formatted student information
+
+## ▶️ How to Run
+
+Make sure Node.js is installed.
+
+```bash
+node practice1.js
+```
+
+Run the mini project with:
+
+```bash
+node miniproject.js
+```
+
+## 🎯 Learning Goal
+
+The goal is to build a strong foundation in JavaScript Objects and understand how structured data is commonly managed in real-world applications such as **users, students, products, orders, and profiles**.
+
+# JavaScript Strings
+
+This project focuses on **JavaScript String manipulation and text processing**. It demonstrates how strings can be cleaned, transformed, searched, extracted, and converted into useful data.
+
+## 📁 Project Structure
+
+```text
+Strings/
+├── practice1.js
+└── README.md
+```
+
+## 📚 Practice — String Analyzer
+
+The `practice1.js` file contains a practical **String Analyzer** that processes a text value using different JavaScript string methods.
+
+### Concepts Covered
+
+* **`trim()`** — Removes unnecessary spaces from the beginning and end.
+* **`length`** — Finds the total number of characters.
+* **`toUpperCase()`** — Converts text into uppercase.
+* **`toLowerCase()`** — Converts text into lowercase.
+* **`includes()`** — Checks whether specific text exists.
+* **`startsWith()`** — Checks how a string begins.
+* **`endsWith()`** — Checks how a string ends.
+* **`replace()`** — Replaces specific text with new text.
+* **`slice()`** — Extracts a specific part of a string.
+* **`split()`** — Converts a string into an array based on a separator.
+* **Template Literals** — Creates clean and dynamic output.
+
+## 🔎 String Analyzer
+
+The analyzer takes a text such as:
+
+```text
+JavaScript is a powerful programming language
+```
+
+and generates useful information including cleaned text, length, uppercase/lowercase versions, text validation results, updated text, extracted words, and total word count.
+
+## ▶️ How to Run
+
+Make sure Node.js is installed.
+
+```bash
+node practice1.js
+```
+
+## 🎯 Learning Goal
+
+The goal is to understand how JavaScript strings are processed in real-world situations such as **form validation, search, user input, text formatting, and data processing**.
 
 
 
