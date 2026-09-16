@@ -1388,6 +1388,54 @@ node practice1.js
 
 The goal is to understand how JavaScript strings are processed in real-world situations such as **form validation, search, user input, text formatting, and data processing**.
 
+# JavaScript Dates, Time & Timers ⏰
+
+A focused JavaScript practice covering **Date & Time handling, date manipulation, time formatting, and timer functions**.
+
+## 📌 Overview
+
+This practice explores how JavaScript works with the `Date` object and how timers can control the execution of code over time.
+
+## 📚 Concepts Covered
+
+### Date & Time
+
+* Creating dates with `new Date()`
+* Extracting day, date, month, and year
+* Extracting hours, minutes, and seconds
+* Converting 24-hour time into 12-hour format
+* Handling `AM / PM`
+
+### Date Manipulation
+
+* Updating dates with `setDate()`
+* Calculating dates before and after a given number of days
+* Working with multiple `Date` objects for independent calculations
+
+### Timers
+
+* `setTimeout()` for delayed one-time execution
+* `setInterval()` for repeated execution
+* `clearInterval()` for stopping intervals
+
+## 💻 Example
+
+```javascript
+let date = new Date();
+
+console.log(date.getDate());
+console.log(date.getMonth() + 1);
+console.log(date.getFullYear());
+```
+
+## 🎯 Learning Outcome
+
+Built a strong foundation in **JavaScript date/time operations and asynchronous timer behavior**, with hands-on practice through console-based programs.
+
+## 🚀 Part of
+
+**JavaScript Learning Journey — Building concepts through practical coding.**
+
 
 
 
