@@ -1,1441 +1,778 @@
 # JavaScript Learning Journey 🚀
 
-This repository documents my hands-on JavaScript learning journey. It includes practical exercises and code examples created while building a strong foundation in JavaScript and progressing toward advanced concepts and real-world development.
+## 1. Introduction
 
-## 📚 Learning Progress
+Welcome to my JavaScript Learning Repository!
 
-### ✅ Day 1 — Variables
+This repository contains my JavaScript learning journey, including basic concepts, coding exercises, practical examples, and mini-projects. I created this repository to understand JavaScript step by step and improve my programming and problem-solving skills.
 
-* `let` and `const`
-* Variable declaration and initialization
-* Naming conventions
-* Practical variable-based exercises
+The project is organized into different folders according to JavaScript topics. Each file focuses on a particular concept and includes practical code examples.
 
-### ✅ Day 2 — Data Types, Arrays & Objects
+**Author:** Zain Ijaz
 
-* Primitive data types: String, Number, Boolean, Undefined, and Null
-* Type checking with `typeof` and `Array.isArray()`
-* Creating and accessing arrays using indexes
-* Creating objects and accessing their properties
-* Working with arrays inside objects
-* Creating and accessing nested objects
-
-### ✅ — Operators
-* Arithmetic, Assignment, Comparison, and Logical Operators
-* Difference between == and ===
-* Conditional logic using operators
-* Practical exercises: Even/Odd, Result, Voting, Login, and Discount systems
-* Combining Objects with Operators and Conditions
-
-* ### ✅ Day 3 — Type Conversion
-
-Learned and practiced **explicit type conversion** in JavaScript, focusing on converting values between different data types and understanding their behavior during operations.
-
-#### 📌 Topics Covered
-
-* String to Number conversion using `Number()`
-* Number to String conversion using `String()`
-* Value to Boolean conversion using `Boolean()`
-* Integer conversion using `parseInt()`
-* Decimal conversion using `parseFloat()`
-* Data type verification using the `typeof` operator
-* Performing arithmetic operations after converting string values to numbers
-* Understanding the difference between `parseInt()` and `parseFloat()`
-
-#### 💻 Practice Implemented
-
-* Converted string values into numbers
-* Converted numeric values into strings
-* Verified converted data types using `typeof`
-* Converted numeric strings before performing addition
-* Extracted integer values using `parseInt()`
-* Preserved decimal values using `parseFloat()`
-
-* # 🎓Mini Project Student Result Management System
-
-A console-based JavaScript mini project that simulates a student result management system. It calculates marks, percentage, grades, pass/fail status, verifies student documents, and determines scholarship eligibility using core JavaScript concepts.
-
-## ✨ Features
-
-* Student data management using nested objects
-* Total marks and percentage calculation
-* Pass/Fail evaluation
-* Grade assignment
-* Document verification
-* Scholarship eligibility check
-
-## 🛠️ Concepts Used
-
-* Variables & Data Types
-* Objects & Nested Objects
-* Arithmetic, Comparison & Logical Operators
-* Conditional Statements (`if`, `else if`, `else`)
-* Boolean (Truthy/Falsy)
-* Strict Mode
-
-* ### ✅ Day 4 — Conditional Statements & Switch
-
-* `if`, `else if`, and `else` for conditional logic
-*  `switch`, `case`, `break`, and `default`
-* Built a Student Grade & Remarks System
-* Implemented percentage-based grade calculation
-* Generated performance remarks using `switch`
-* Combined objects and conditional logic in a practical exercise
-
-* ## Day 5 — For Loops
-
-Learned how to use JavaScript `for` loops to repeat code, iterate through numbers, and process data stored in arrays and objects. Practiced combining loops with conditional statements and operators to solve logic-based problems and build small programs.
-
-### Key Concepts
-
-* `for` loop syntax, initialization, condition, and update
-* Increment and decrement operations
-* Iterating through arrays using indexes
-* Accessing and processing array elements
-* Combining loops with `if/else` conditions
-* Working with objects and arrays together
-* Performing calculations inside loops
-* Building basic logic-based programs and result systems
-
-These exercises helped strengthen the understanding of iteration, conditional logic, data handling, and problem-solving in JavaScript.
-
-### While Loop Practice
-
-Implemented practical exercises using JavaScript `while` loops to strengthen iteration, condition handling, counters, and loop control.
-
-* Reverse counting from 10 to 1
-* Calculating the sum of numbers from 1 to 10
-* Generating a multiplication table
-* Filtering and counting even numbers within a given range
-
-* # Day 6 — JavaScript Conditions & Loops
-
-A practical collection of JavaScript exercises focused on decision-making and iteration. This section demonstrates how conditions and loops control program flow and handle repetitive tasks efficiently.
-
-## Topics Covered
-
-### Conditions
-
-* `if`, `else if`, and `else`
-* `switch` statements
-* Ternary operator
-
-### Loops
-
-* `for` loop
-* `while` loop
-* `do...while` loop
-* `break` and `continue`
-* Nested loops
-
-## Key Concepts Practiced
-
-* Making decisions using conditional statements
-* Repeating tasks efficiently with different loop structures
-* Controlling loop execution using `break` and `continue`
-* Combining conditions with loops
-* Working with nested iterations
-
-# Day - 7 JavaScript Functions 🚀
-
-This directory contains my practical implementation of **JavaScript Functions**, demonstrating how reusable code can simplify problem-solving and improve code organization.
-
-## 📚 Topics Covered
-
-* **Function Declaration** – Defines a reusable function using the `function` keyword.
-* **Function Expression** – Stores a function inside a variable for flexible usage.
-* **Parameters** – Receive input values when a function is defined.
-* **Arguments** – Actual values passed to a function when it is called.
-* **Conditional Statements (`if...else`)** – Execute different blocks of code based on conditions.
-* **Arithmetic Operators** – Perform mathematical calculations such as addition and multiplication.
-* **Comparison Operators** – Compare values and return `true` or `false`.
-* **Code Reusability** – Write logic once and reuse it whenever needed.
-
-## 💻 Practice Programs
-
-* Greeting User
-* Rectangle Area Calculator
-* Largest Number Finder
-* Password Strength Checker
-* Voting Eligibility Checker
-* Basic Calculator
-
-* # JavaScript Arrow Functions 🚀
-
-This directory contains my practical implementation of **Arrow Functions (ES6)**, focusing on writing concise, modern, and reusable JavaScript code. Through real-world coding exercises, I explored how arrow functions simplify function syntax while strengthening problem-solving and logical thinking.
-
-## 📚 What I Learned
-
-* **Arrow Functions** – A shorter and cleaner syntax for writing JavaScript functions introduced in ES6.
-* **Parameters & Arguments** – Passing and processing data within functions.
-* **Conditional Statements** – Implementing decision-making using `if`, `else if`, and nested `if`.
-* **Arithmetic & Comparison Operators** – Performing calculations and evaluating conditions.
-* **Logical Operators** – Combining multiple conditions using `&&` and boolean values.
-* **Code Reusability** – Organizing logic into reusable functions for better maintainability.
-
-## 💻 Practice Tasks
-
-* 🎓 Student Result Calculator
-* 🔐 User Login Validation System
-* ⚡ Electricity Bill Calculator with Slab Rates & Surcharge
-
-## 🎯 Skills Strengthened
-
-* Arrow Function Syntax
-* Problem Solving
-* Decision Making
-* Nested Conditions
-* Real-World Logic Building
-* Clean & Readable JavaScript Code
-
-# Day - 8 JavaScript Functions 🚀
-
-Practice focused on **JavaScript Functions**, with an emphasis on **parameters, arguments, function declarations, and ES6 arrow functions**.
-
-## 📚 What I Practiced
-
-* **Function Declarations** — created and invoked functions using the `function` keyword.
-* **Parameters & Arguments** — understood how functions receive and work with dynamic values.
-* **Arrow Functions** — practiced the modern ES6 syntax for writing concise functions.
-* **Multiple Parameters** — used multiple inputs to perform calculations and return results.
-* **Return Values** — learned how functions can process data and return reusable results.
-
-## 💻 Practical Implementation
-
-Created a simple `greet()` function to understand the relationship between parameters and arguments. Then, implemented an arrow function to calculate the total price using `price` and `quantity`.
-
-```js
-const totalPrice = (price, quantity) => {
-    return price * quantity;
-};
-
-console.log(totalPrice(400, 7));
-// Output: 2800
-```
-# JavaScript Functions — Return Statement 🚀
-
-Practice focused on the **`return` statement** and its role in making JavaScript functions reusable and capable of producing values for further operations.
-
-## 📚 Concept
-
-The **`return` statement** terminates a function and sends a value back to the code that called the function. Unlike `console.log()`, which only displays a value, `return` allows the result to be **stored, reused, modified, or passed into another operation**.
-
-### 🔹 Return Value
-
-A function can process the received inputs and return the resulting value. This makes the function **reusable and independent of direct output**.
-
-## 🛠️ Practice Covered
-
-* **Shopping Bill:** Calculated the total price using price and quantity, then reused the returned value in another calculation.
-* **Employee Salary:** Calculated the final salary by combining basic salary and bonus.
-* Practiced passing multiple arguments and receiving multiple parameters.
-* Used arrow functions with returned values.
-* Compared the purpose of `return` with `console.log()`.
-
-## 🎯 Key Takeaway
-
-`console.log()` **displays** a value, while `return` **provides a value back to the program** for further use.
-
-Understanding return values is essential for writing **modular, reusable, and maintainable JavaScript code** and provides a foundation for concepts such as **callbacks, array methods, higher-order functions, and React.js**.
-
-* ### ✅ Day 9 — Default & Rest Parameters
-
-A practical collection of JavaScript exercises focused on building reusable functions and understanding modern function concepts through real-world examples.
-
-## Topics Covered
-
-* Arrow Functions
-* Function Parameters & Arguments
-* Default Parameters
-* Return Statements
-* Rest Parameters
-* Array `reduce()` Method
-* Conditional Logic
-* Object Return Values
-
-## Exercises
-
-### 1. Student Result Calculator
-
-A reusable function that processes student marks and generates a complete result summary.
-
-**Features:**
-
-* Calculates total obtained marks
-* Calculates percentage
-* Determines Pass/Fail status
-* Uses a default value for total marks
-* Returns results as an object
-
-**Concepts:** Arrow Functions, Default Parameters, `reduce()`, Conditional Statements, Return Objects
+**GitHub Repository:** [JavaScript Learning](https://github.com/zainraaj07/javascript_learning)
 
 ---
 
-### 2. Shopping Bill Calculator
+## 2. Project Overview
 
-A billing function that calculates the total cost based on price, quantity, and discount.
+The purpose of this repository is to practice JavaScript concepts through hands-on coding.
 
-**Features:**
+The repository covers the following topics:
 
-* Calculates subtotal
-* Applies percentage-based discount
-* Calculates final bill
-* Assigns Basic, Regular, or Premium categories
+1. JavaScript Variables
+2. Data Types
+3. Operators
+4. Type Conversion
+5. Numbers and Mathematical Operations
+6. Conditional Statements
+7. Loops
+8. Functions
+9. Arrow Functions
+10. Parameters and Arguments
+11. Return Statements
+12. Default and Rest Parameters
+13. Callback Functions
+14. Arrays and Array Methods
+15. Objects and Object Methods
+16. String Manipulation
+17. Date and Time
+18. Timers
+19. DOM Manipulation
+20. HTML and CSS Integration
 
-**Concepts:** Default Parameters, Arithmetic Operations, Conditional Logic, Return Objects
+It also contains practical exercises such as a Student Result Management System, product calculations, an e-commerce product management exercise, a Student Management System, a String Analyzer, and a Digital Dashboard.
 
----
+## 3. Technologies Used
 
-### 3. Rest Parameter
+- **JavaScript (ES6+)** — programming concepts and logic.
+- **HTML5** — structure of the DOM practice webpage.
+- **CSS3** — styling and visual effects.
+- **Node.js** — executing JavaScript files outside the browser.
+- **Visual Studio Code** — writing and managing code.
+- **Google Chrome or another modern browser** — testing DOM manipulation.
+- **Git and GitHub** — version control and repository hosting.
 
-A function demonstrating how the Rest Parameter can handle a dynamic number of arguments.
+## 4. Project Structure
 
-```javascript
-const calculateTotal = (...numbers) => {
-    let total = 0;
-
-    for (let number of numbers) {
-        total += number;
-    }
-
-    return total;
-};
-```
-
-The `...numbers` syntax collects all arguments into an array, allowing the function to work with different numbers of values.
-
-# ### ✅ Day 10 Callback Functions
-
-My JavaScript learning journey, focused on understanding **Callback Functions** and how functions can be passed as arguments to create flexible and reusable code.
-
-### 📚 Concepts Practiced
-
-* Basic Callback Functions
-* Callbacks with Parameters
-* Callbacks with Multiple Parameters
-* Functions as Arguments
-* Reusable Callback Logic
-* Conditional Logic with Callbacks
-* Return Values
-
-### 💻 Practical Implementations
-
-The practice includes multiple real coding examples such as:
-
-* Executing a function through a callback
-* Processing numbers using callback functions
-* Performing addition and multiplication dynamically
-* Creating a reusable greeting system
-* Checking numbers for **Even/Odd** and **Positive/Negative** conditions
-
-### 🛠️ Tech Stack
-
-**JavaScript (ES6+) • Node.js**
-
-### 🎯 Learning Objective
-
-The goal was to build a strong understanding of **callbacks** and learn how JavaScript functions can be passed, reused, and executed dynamically.
-
-### 📈 Learning Progress
-
-**Functions → Callbacks → Higher-Order Functions → Array Methods → Async JavaScript**
-
----
-
-### JavaScript Mini Project | Day 10
-
-# 🛒 ZAIN STORE — Advanced Order Processing System
-
-A practical **JavaScript-based e-commerce order processing system** built to apply core JavaScript concepts in a realistic business workflow.
-
-This project goes beyond basic function practice by combining **Callbacks, Higher-Order Functions, Array Methods, Objects, Conditional Logic, Error Handling, and Business Logic** into a complete order-processing flow.
-
----
-
-## 📌 Project Overview
-
-**ZAIN STORE** simulates an online shopping order from the moment a product is selected until the order is successfully processed and the customer receives a confirmation notification.
-
-The system handles:
-
-**Product Validation → Stock Check → Pricing → Discount → Shipping → Order Creation → Payment → Notification**
-
-The main purpose of this project was to understand how individual JavaScript concepts can work together inside a structured, real-world application.
-
----
-
-## 🚀 Features
-
-* 🛍️ Product catalog with pricing and stock
-* 👤 Customer & membership management
-* 🔎 Product search by ID
-* 📦 Stock availability validation
-* 💰 Dynamic price calculation
-* 🎁 Premium membership discount
-* 🚚 Location-based shipping
-* 🧾 Dynamic order ID generation
-* 💳 Simulated payment processing
-* 🔐 Transaction ID generation
-* 📨 Customer order notification
-* ⚠️ Basic error handling
-* ⚡ Higher-Order Function implementation
-* 🔍 Product filtering and transformation
-* 📊 Stock status reporting
-
----
-
-## 🔄 Application Workflow
+The project is organized into topic-based folders.
 
 ```text
-                    ZAIN STORE
-                        │
-                        ▼
-                Product Selection
-                        │
-                        ▼
-                Product Validation
-                        │
-                        ▼
-                   Stock Check
-                        │
-                        ▼
-              Calculate Subtotal
-                        │
-                        ▼
-                 Apply Discount
-                        │
-                        ▼
-               Calculate Shipping
-                        │
-                        ▼
-                 Create Order
-                        │
-                        ▼
-               Process Payment
-                        │
-                        ▼
-              Generate Transaction
-                        │
-                        ▼
-              Send Notification
-                        │
-                        ▼
-                Order Completed
-```
-
----
-
-# 🧠 Concepts & Topics Implemented
-
-## 1. Functions
-
-The application is divided into reusable functions for individual responsibilities such as product searching, discount calculation, shipping, order processing, payment processing, and notifications.
-
-This keeps the code structured and makes individual operations easier to reuse and maintain.
-
----
-
-## 2. Callback Functions ⭐
-
-Callbacks are the **core concept** of this mini project.
-
-Functions are passed as arguments and executed after specific operations.
-
-The main workflow uses multiple callbacks:
-
-```text
-processOrder()
-      ↓
-processPayment()
-      ↓
-sendNotification()
-```
-
-This creates a callback-driven order workflow where each stage can pass its result to the next operation.
-
----
-
-## 3. Higher-Order Functions
-
-A custom Higher-Order Function is used to make product filtering reusable.
-
-```javascript
-function getProductsByPrice(products, callback) {
-    return products.filter(function(product) {
-        return callback(product);
-    });
-}
-```
-
-A callback determines which products should be selected, making the filtering logic flexible instead of hard-coded.
-
----
-
-## 4. Arrays & Objects
-
-Product and customer information is organized using JavaScript **arrays and objects**.
-
-```text
-Products
-   ↓
-Array
-   ↓
-Product Objects
-   ↓
-ID | Name | Category | Price | Stock
-```
-
-This provides a structured way to manage application data.
-
----
-
-## 5. Array Methods
-
-The project uses several built-in array methods:
-
-### `find()`
-
-Used to locate a product using its ID.
-
-### `filter()`
-
-Used to identify products based on conditions such as price.
-
-### `map()`
-
-Used to extract product names from product objects.
-
-### `forEach()`
-
-Used to iterate through products and display their stock status.
-
----
-
-## 6. Conditional Logic
-
-`if / else` conditions are used to implement business rules such as:
-
-* Product availability
-* Stock validation
-* Payment success/failure
-* Shipping calculation
-* Stock status
-
-This allows the application to respond differently depending on the current situation.
-
----
-
-## 7. Error Handling
-
-The callback workflow supports both successful and failed operations.
-
-For example:
-
-```javascript
-callback("Product not found!", null);
-```
-
-and:
-
-```javascript
-callback(null, order);
-```
-
-This demonstrates the common callback pattern of handling **error + result**.
-
----
-
-## 8. Business Logic
-
-The project implements realistic e-commerce calculations.
-
-### Pricing
-
-```text
-Subtotal = Product Price × Quantity
-```
-
-### Discount
-
-```text
-Discount = Subtotal × Discount Rate
-```
-
-### Final Total
-
-```text
-Total = Subtotal - Discount + Shipping
-```
-
-The calculated values are stored inside a structured order object.
-
----
-
-## 9. Template Literals
-
-Template literals are used to create dynamic customer notifications and formatted output.
-
-```javascript
-`Hi ${customer.name}, your order ${order.orderId} has been confirmed!`
-```
-
-This allows dynamic application data to be inserted directly into strings.
-
----
-
-## 10. Dynamic ID Generation
-
-The system generates dynamic identifiers for orders and transactions.
-
-```text
-ORD-XXXXX
-TXN-XXXXX
-```
-
-This simulates how unique references can be generated for business operations.
-
----
-
-# 💳 Order & Payment Processing
-
-The order system first validates the requested product and available stock.
-
-After successful validation, it calculates the order amount and creates the order object.
-
-The payment function then simulates a successful card transaction and returns a transaction ID through a callback.
-
-Finally, a notification callback confirms the order to the customer.
-
----
-
-
-
-# 🛠️ Tech Stack
-
-| Technology            | Usage               |
-| --------------------- | ------------------- |
-| **JavaScript (ES6+)** | Application logic   |
-| **Node.js**           | Runtime environment |
-
----
-
-
-# 🎯 Key Takeaway
-
-This mini project represents my transition from **individual JavaScript exercises to building practical application logic**.
-
-The focus was not only on writing functions, but on understanding how concepts such as **Callbacks, Higher-Order Functions, Array Methods, Objects, and Conditional Logic** can work together to solve a realistic business problem.
-
-
-# JavaScript Arrays — E-Commerce Mini Project
-
-A practical JavaScript project designed to build a strong understanding of **Arrays and Array Methods** through real-world e-commerce data.
-
-This project demonstrates how JavaScript arrays can be used to manage, transform, search, filter, validate, calculate, and organize product data in an e-commerce application.
-
----
-
-## 📌 Project Overview
-
-This mini project focuses on JavaScript Array concepts using a realistic collection of e-commerce products.
-
-Instead of learning array methods only through basic examples, the project applies them to practical product-related operations such as:
-
-* Updating product prices
-* Filtering products based on price
-* Finding specific products
-* Finding product indexes
-* Checking product stock
-* Calculating total prices
-* Sorting products by price
-* Extracting product names
-* Converting arrays into readable strings
-
-The project also includes separate practice files to progressively strengthen JavaScript Array fundamentals.
-
----
-
-## 🎯 Learning Objectives
-
-The main objective of this project is to understand how JavaScript Arrays work and how their built-in methods can be applied in real-world development.
-
-By completing this project, you will learn how to:
-
-* Create and work with arrays
-* Access array elements using indexes
-* Add and remove array elements
-* Extract portions of arrays
-* Modify array data
-* Transform array elements
-* Filter data based on conditions
-* Search for specific elements
-* Validate array data
-* Calculate values from arrays
-* Sort array data
-* Reverse array elements
-* Check whether values exist
-* Combine arrays
-* Convert arrays into strings
-* Flatten nested arrays
-
----
-
-## 🛠️ Technologies Used
-
-* **JavaScript (ES6+)**
-* **HTML / Browser Console or Node.js** for execution
-* **Git & GitHub** for version control
-
----
-
-# 📂 Project Structure
-
-```text
-Arrays/
+my javascript/
 │
-├── miniproject.js
-├── practice1.js
-├── practice2.js
-├── practice3.js
-└── README.md
+├── README.md
+│
+├── javascript_basics/
+│   ├── variables.js
+│   ├── DataTypes.js
+│   ├── operators.js
+│   ├── TypeConverse.js
+│   └── miniproject.js
+│
+├── numbers_math/
+│   ├── practice1.js
+│   └── practice2.js
+│
+├── conditions_and_loops/
+│   ├── switch_statement.js
+│   ├── ForLoop.js
+│   ├── whileLoop.js
+│   └── DoWhile_NestedLoop.js
+│
+├── functions/
+│   ├── function_declaration.js
+│   ├── function_expression.js
+│   ├── parameter_arguments.js
+│   ├── return_statement.js
+│   ├── practice1.js
+│   ├── arrow_function.js
+│   ├── default_rest_parameter.js
+│   ├── callbackFunction.js
+│   └── FinalPractice.js
+│
+├── Arrays/
+│   ├── practice1.js
+│   ├── practice2.js
+│   ├── practice3.js
+│   └── miniproject.js
+│
+├── Objects/
+│   ├── practice1.js
+│   └── miniproject.js
+│
+├── Strings/
+│   └── practice1.js
+│
+├── dates_time/
+│   ├── practice1.js
+│   └── miniTask.js
+│
+└── DOM/
+    ├── index.html
+    ├── script.js
+    └── style.css
 ```
 
-### `practice1.js`
+## 5. JavaScript Basics
 
-Contains basic JavaScript Array practice, focusing on fundamental array operations and concepts.
+**Folder:** `javascript_basics/`
 
-### `practice2.js`
+This folder contains the fundamental concepts of JavaScript.
 
-Contains intermediate Array exercises designed to improve understanding of array methods and data manipulation.
+### 5.1 Variables — `variables.js`
 
-### `practice3.js`
+This file practices:
 
-Contains additional practice for applying Array methods to different scenarios and strengthening problem-solving skills.
+- Declaring variables using `var`, `let`, and `const`.
+- Storing and updating values.
+- Displaying information using `console.log()`.
+- Understanding variable scope.
 
-### `miniproject.js`
+Variables allow us to store information that can be used throughout our programs.
 
-The main practical project that applies JavaScript Array methods to an e-commerce product dataset.
+### 5.2 Data Types — `DataTypes.js`
 
----
+This file explores JavaScript data types, including:
 
-# 🛒 E-Commerce Product Dataset
+- String
+- Number
+- Boolean
+- Undefined
+- Null
+- Arrays
+- Objects
 
-The mini project uses the following product structure:
+It also practices checking data types using `typeof` and identifying arrays using `Array.isArray()`.
 
-```js
-let products = [
-    {
-        name: "Laptop",
-        price: 120000,
-        category: "Electronics",
-        stock: 5
-    },
-    {
-        name: "Mouse",
-        price: 2500,
-        category: "Electronics",
-        stock: 20
-    },
-    {
-        name: "Keyboard",
-        price: 5000,
-        category: "Electronics",
-        stock: 0
-    },
-    {
-        name: "Chair",
-        price: 15000,
-        category: "Furniture",
-        stock: 8
-    },
-    {
-        name: "Desk",
-        price: 25000,
-        category: "Furniture",
-        stock: 3
-    }
+### 5.3 Operators — `operators.js`
+
+This file covers:
+
+- Arithmetic operators: `+`, `-`, `*`, `/`, `%`, and `**`.
+- Comparison operators: `>`, `<`, `>=`, `<=`, `==`, and `===`.
+- Logical operators: `&&`, `||`, and `!`.
+- Calculations and condition-based examples.
+
+Operators are used to perform calculations, compare values, and make decisions.
+
+### 5.4 Type Conversion — `TypeConverse.js`
+
+This file demonstrates converting values from one data type to another.
+
+Methods practiced include:
+
+- `Number()`
+- `String()`
+- `Boolean()`
+- `parseInt()`
+- `parseFloat()`
+
+Type conversion is useful when working with user input and performing calculations.
+
+### 5.5 Student Result Management System — `miniproject.js`
+
+This console-based mini-project practices JavaScript fundamentals using student information and subject marks.
+
+Its implemented calculations and checks include:
+
+- Working with student information and marks.
+- Calculating total marks and percentage.
+- Determining grades and results.
+- Checking document and scholarship eligibility.
+
+This project demonstrates how basic JavaScript concepts can be combined to solve a practical problem.
+
+## 6. Numbers and Mathematical Operations
+
+**Folder:** `numbers_math/`
+
+### 6.1 Product Bill and Discount Calculator — `practice1.js`
+
+This exercise demonstrates product price calculations.
+
+Topics include:
+
+- Converting price and quantity strings into numbers.
+- Calculating product totals and a subtotal.
+- Generating a random discount between 5% and 20%.
+- Calculating the discount amount and final bill.
+- Finding the highest and lowest product totals.
+
+Methods used include `parseFloat()`, `parseInt()`, `Math.random()`, `Math.floor()`, `Math.max()`, `Math.min()`, and `toFixed()`.
+
+### 6.2 Marks Statistics — `practice2.js`
+
+This exercise works with students' marks.
+
+It practices:
+
+- Converting string values into numbers.
+- Using `map()` to transform values.
+- Using `reduce()` to calculate the total.
+- Calculating the average marks.
+- Finding the highest and lowest marks.
+- Rounding numbers.
+- Generating a random number.
+
+## 7. Conditional Statements and Loops
+
+**Folder:** `conditions_and_loops/`
+
+### 7.1 Switch Statement — `switch_statement.js`
+
+This file practices conditional logic through:
+
+- `if`, `else if`, and `else`.
+- `switch` statements.
+- Student grades and remarks.
+- Store opening and closing messages based on the day.
+
+### 7.2 For Loop — `ForLoop.js`
+
+This file contains exercises involving:
+
+- Counting from 1 to 10.
+- Printing even numbers.
+- Generating the multiplication table of 7.
+- Iterating through an array.
+- Checking whether numbers are positive, negative, or zero.
+- Other loop-based exercises in the source file.
+
+A `for` loop is useful when we want to repeat a task a known number of times.
+
+### 7.3 While Loop — `whileLoop.js`
+
+This file practices:
+
+- Repeating statements using a `while` loop.
+- Reverse counting.
+- Calculating sums.
+- Generating multiplication tables.
+- Counting and checking values.
+
+A `while` loop continues executing as long as its condition is true.
+
+### 7.4 Do-While and Nested Loops — `DoWhile_NestedLoop.js`
+
+This file demonstrates:
+
+- `do...while` loops.
+- Nested loops.
+- The `break` statement.
+- The `continue` statement.
+- Checking even and odd numbers.
+
+A `do...while` loop executes its body at least once before checking the condition.
+
+The `break` statement stops a loop, while `continue` skips the current iteration.
+
+## 8. JavaScript Functions
+
+**Folder:** `functions/`
+
+Functions help organize code into reusable blocks.
+
+### 8.1 Function Declaration — `function_declaration.js`
+
+Practices declaring and calling named functions.
+
+### 8.2 Function Expression — `function_expression.js`
+
+Practices storing functions in variables and calling them when needed.
+
+### 8.3 Parameters and Arguments — `parameter_arguments.js`
+
+Explores how parameters receive values and how arguments are passed when a function is called.
+
+The file also practices calculations using price and quantity.
+
+### 8.4 Return Statement — `return_statement.js`
+
+Practices returning calculated values from functions, including bill and salary calculations.
+
+The `return` statement sends a value back to the code that called the function.
+
+### 8.5 Function Practice — `practice1.js`
+
+Contains reusable function exercises involving multiplication, age checks, and price calculations.
+
+### 8.6 Arrow Functions — `arrow_function.js`
+
+Practices the shorter arrow-function syntax and calculations involving marks, percentages, and grades.
+
+Example:
+
+```javascript
+const add = (a, b) => {
+    return a + b;
+};
+
+console.log(add(10, 20));
+```
+
+### 8.7 Default and Rest Parameters — `default_rest_parameter.js`
+
+Practices:
+
+- Default parameter values.
+- Receiving an array of marks.
+- Calculating student results.
+- Returning a result object.
+
+A default parameter supplies a value when an argument is not provided. A rest parameter collects multiple arguments into an array.
+
+### 8.8 Callback Functions — `callbackFunction.js`
+
+Practices passing a function as an argument to another function.
+
+Callbacks are useful when we want one function to execute another function as part of its task.
+
+### 8.9 Final Function Practice — `FinalPractice.js`
+
+Practices calculating product prices by separating tasks into reusable functions, including tax, discounts, and final-price calculations.
+
+## 9. JavaScript Arrays
+
+**Folder:** `Arrays/`
+
+Arrays store multiple values in a single variable.
+
+### 9.1 Array Basics and Indexing — `practice1.js`
+
+This file practices:
+
+- Creating an array of fruits.
+- Accessing elements using indexes.
+- Updating an array element.
+- Using the `length` property.
+- Accessing the last element.
+
+Example:
+
+```javascript
+const fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+fruits[1] = "Grapes";
+
+console.log(fruits[2]);
+console.log(fruits[fruits.length - 1]);
+console.log(fruits[1]);
+```
+
+Array indexing starts at `0`.
+
+### 9.2 Basic Array Operations — `practice2.js`
+
+This file uses shopping cart items and restaurant orders to practice:
+
+- `push()` — adds items to the end.
+- `unshift()` — adds items to the beginning.
+- `pop()` — removes the last item.
+- `shift()` — removes the first item.
+- `length` — counts the remaining items.
+
+### 9.3 Store Management — `practice3.js`
+
+This exercise uses an array of product objects.
+
+It demonstrates:
+
+- `slice()` to create a portion of an array.
+- `splice()` to remove or insert items.
+- `map()` to calculate discounted prices.
+- `filter()` to find products in a category.
+- `reduce()` to calculate total product prices.
+- `forEach()` to display each product.
+
+### 9.4 E-commerce Product Mini-Project — `miniproject.js`
+
+This mini-project manages products with names, prices, categories, and stock quantities.
+
+It practices:
+
+- Increasing product prices by 10%.
+- Finding products above a specified price.
+- Finding a product by name.
+- Finding the index of a product.
+- Checking whether any product is out of stock.
+- Checking whether all products are in stock.
+- Calculating the total price of products.
+- Sorting products from lowest to highest price.
+- Sorting products from highest to lowest price.
+- Extracting product names and joining them into a string.
+
+Array methods include `map()`, `filter()`, `find()`, `findIndex()`, `some()`, `every()`, `reduce()`, `sort()`, and `join()`.
+
+Example:
+
+```javascript
+const products = [
+    { name: "Laptop", price: 120000, stock: 5 },
+    { name: "Mouse", price: 2500, stock: 20 },
+    { name: "Keyboard", price: 5000, stock: 0 }
 ];
-```
 
-Each product contains four properties:
-
-| Property   | Description        |
-| ---------- | ------------------ |
-| `name`     | Product name       |
-| `price`    | Product price      |
-| `category` | Product category   |
-| `stock`    | Available quantity |
-
-This structure allows different Array methods to be applied to realistic product data.
-
----
-
-# 🔧 Array Methods Implemented
-
-## 1. `map()`
-
-Used to transform every product's price by increasing it by **10%**.
-
-```js
-const updatedPrice = products.map(product => {
-    return product.price * 1.10;
-});
-```
-
-### Purpose
-
-`map()` creates a **new array** by applying a function to every element of the original array.
-
-### Example Result
-
-```text
-[132000, 2750, 5500, 16500, 27500]
-```
-
----
-
-## 2. `filter()`
-
-Used to retrieve products whose price is greater than `10,000`.
-
-```js
-let result = products.filter(product => {
+const expensiveProducts = products.filter(product => {
     return product.price > 10000;
 });
-```
 
-### Purpose
-
-`filter()` creates a new array containing only the elements that satisfy a specific condition.
-
-### Result
-
-The following products match the condition:
-
-```text
-Laptop
-Chair
-Desk
-```
-
----
-
-## 3. `find()`
-
-Used to find the complete product object for `"Mouse"`.
-
-```js
-let mouseProduct = products.find(product => {
-    return product.name === "Mouse";
-});
-```
-
-### Purpose
-
-`find()` returns the **first element** that satisfies the given condition.
-
-If no matching element exists, it returns:
-
-```text
-undefined
-```
-
----
-
-## 4. `findIndex()`
-
-Used to find the index of the `"Chair"` product.
-
-```js
-let charindex = products.findIndex(product => {
-    return product.name === "Chair";
-});
-```
-
-### Purpose
-
-`findIndex()` returns the index of the first element that satisfies the condition.
-
-For this dataset:
-
-```text
-Chair → Index 3
-```
-
-If no match is found, it returns:
-
-```text
--1
-```
-
----
-
-## 5. `some()`
-
-Used to check whether at least one product is out of stock.
-
-```js
-let stock = products.some(product => {
-    return product.stock === 0;
-});
-```
-
-### Purpose
-
-`some()` checks whether **at least one element** satisfies the condition.
-
-### Result
-
-```text
-true
-```
-
-The `Keyboard` product has:
-
-```text
-stock: 0
-```
-
-Therefore, at least one product is out of stock.
-
----
-
-## 6. `every()`
-
-Used to check whether all products are currently in stock.
-
-```js
-let checkStock = products.every(product => {
-    return product.stock >= 1;
-});
-```
-
-### Purpose
-
-`every()` checks whether **all elements** satisfy the condition.
-
-### Result
-
-```text
-false
-```
-
-This is because the `Keyboard` has a stock value of `0`.
-
----
-
-## 7. `reduce()`
-
-Used to calculate the total price of all products.
-
-```js
 const totalPrice = products.reduce((sum, product) => {
     return sum + product.price;
 }, 0);
+
+console.log(expensiveProducts);
+console.log(totalPrice);
 ```
 
-### Purpose
+## 10. JavaScript Objects
 
-`reduce()` processes all elements and produces a **single final value**.
+**Folder:** `Objects/`
 
-### Calculation
+Objects store related information using key-value pairs.
 
-```text
-120000 + 2500 + 5000 + 15000 + 25000
-= 167500
-```
+### 10.1 Object Basics and Methods — `practice1.js`
 
-### Result
+This file practices:
 
-```text
-167500
-```
+- Creating student, product, laptop, and user-information objects.
+- Defining methods inside objects.
+- Using `this` to access the current object's properties.
+- Accessing properties with dot notation.
+- Accessing properties with bracket notation.
+- Destructuring objects.
+- Using `Object.keys()`.
+- Using `Object.values()`.
+- Using `Object.entries()`.
+- Combining objects with the spread operator.
+- Copying objects with `Object.assign()`.
+- Working with nested objects.
 
-This type of operation is commonly used for:
-
-* Shopping cart totals
-* Order totals
-* Revenue calculations
-* Quantity calculations
-* Aggregating numerical data
-
----
-
-## 8. `sort()`
-
-Used to arrange products from the lowest price to the highest price.
-
-```js
-const ascendingPrice = [...products].sort((a, b) => {
-    return a.price - b.price;
-});
-```
-
-### Result
-
-```text
-Mouse     → 2500
-Keyboard  → 5000
-Chair     → 15000
-Desk      → 25000
-Laptop    → 120000
-```
-
-The same method is also used for descending order:
-
-```js
-const decendingPrice = [...products].sort((a, b) => {
-    return b.price - a.price;
-});
-```
-
-### Important Note
-
-`sort()` modifies the original array.
-
-Using:
-
-```js
-[...products]
-```
-
-creates a copy first, allowing the original `products` array to remain unchanged.
-
----
-
-## 9. `join()`
-
-Used to convert product names into a single readable string.
-
-```js
-let productName = productArray.join(", ");
-```
-
-### Result
-
-```text
-Laptop, Mouse, Keyboard, Chair, Desk
-```
-
-`join()` is useful when array data needs to be displayed as readable text.
-
----
-
-# 📚 Additional Array Concepts Covered
-
-The project is part of a broader Array learning module covering the following methods and concepts:
-
-### Basic Array Operations
-
-* Array creation
-* Array indexing
-* Array length
-* Accessing elements
-* Updating elements
-
-### Adding and Removing Elements
-
-* `push()`
-* `pop()`
-* `shift()`
-* `unshift()`
-
-### Extracting and Modifying Arrays
-
-* `slice()`
-* `splice()`
-
-### Iteration and Transformation
-
-* `forEach()`
-* `map()`
-
-### Filtering and Searching
-
-* `filter()`
-* `find()`
-* `findIndex()`
-
-### Data Validation
-
-* `some()`
-* `every()`
-
-### Data Processing
-
-* `reduce()`
-
-### Ordering
-
-* `sort()`
-* `reverse()`
-
-### Searching and Combining
-
-* `includes()`
-* `join()`
-* `concat()`
-* `flat()`
-
----
-
-# 🔄 Method Selection Guide
-
-One of the main goals of this project is understanding **when to use each Array method**.
-
-| Requirement                           | Method        |
-| ------------------------------------- | ------------- |
-| Add item at the end                   | `push()`      |
-| Remove item from the end              | `pop()`       |
-| Add item at the beginning             | `unshift()`   |
-| Remove item from the beginning        | `shift()`     |
-| Copy a portion of an array            | `slice()`     |
-| Add/remove/replace elements           | `splice()`    |
-| Transform every element               | `map()`       |
-| Select elements based on condition    | `filter()`    |
-| Perform an operation on every element | `forEach()`   |
-| Convert multiple values into one      | `reduce()`    |
-| Find one specific element             | `find()`      |
-| Find the index of an element          | `findIndex()` |
-| Check if at least one matches         | `some()`      |
-| Check if all match                    | `every()`     |
-| Sort elements                         | `sort()`      |
-| Reverse order                         | `reverse()`   |
-| Check if a value exists               | `includes()`  |
-| Convert array to string               | `join()`      |
-| Combine arrays                        | `concat()`    |
-| Flatten nested arrays                 | `flat()`      |
-
----
-
-# ▶️ How to Run the Project
-
-## Option 1 — Browser Console
-
-1. Open Google Chrome or any modern browser.
-2. Open Developer Tools.
-3. Navigate to the **Console** tab.
-4. Open `miniproject.js`.
-5. Copy the code.
-6. Paste it into the browser console.
-7. Press **Enter**.
-8. Review the output of each Array operation.
-
----
-
-## Option 2 — Visual Studio Code + Node.js
-
-Make sure Node.js is installed on your system.
-
-Open the project folder in Visual Studio Code and run:
-
-```bash
-node miniproject.js
-```
-
-To run the practice files:
-
-```bash
-node practice1.js
-```
-
-```bash
-node practice2.js
-```
-
-```bash
-node practice3.js
-```
-
----
-
-# 🧪 Practice Approach
-
-The project is structured to follow a progressive learning approach:
-
-```text
-Basic Arrays
-      ↓
-Array Indexing
-      ↓
-Adding & Removing Elements
-      ↓
-Extracting & Modifying Data
-      ↓
-Map / Filter / ForEach
-      ↓
-Reduce / Find / FindIndex
-      ↓
-Some / Every
-      ↓
-Sort / Reverse
-      ↓
-Join / Concat / Flat
-      ↓
-E-Commerce Mini Project
-```
-
-This progression helps build both **conceptual understanding and practical problem-solving skills**.
-
----
-
-# 💡 Real-World Applications
-
-The Array methods demonstrated in this project are commonly used in modern web development.
-
-For example:
-
-### E-Commerce
-
-* Product filtering
-* Product searching
-* Shopping cart calculations
-* Price sorting
-* Inventory checking
-* Category filtering
-
-### Dashboards
-
-* Processing records
-* Calculating totals
-* Filtering data
-* Generating statistics
-
-### Frontend Development
-
-* Rendering lists
-* Transforming API responses
-* Searching data
-* Managing application state
-
-### Backend Development
-
-* Processing database results
-* Preparing API responses
-* Validating collections of data
-
----
-
-# 🎓 Learning Outcome
-
-After completing this project, you should be comfortable working with JavaScript Arrays and selecting appropriate Array methods based on a problem's requirements.
-
-You should be able to recognize patterns such as:
-
-```text
-Transform data      → map()
-Filter data         → filter()
-Find one item       → find()
-Find position       → findIndex()
-Calculate total     → reduce()
-Check one condition → some()
-Check all conditions→ every()
-Sort data           → sort()
-Create text         → join()
-Combine arrays      → concat()
-Flatten arrays      → flat()
-```
-
-The main objective is not only to memorize Array methods, but to understand **why and when each method should be used**.
-
----
-
-# 🚀 Future Improvements
-
-This mini project can be extended into a complete e-commerce data management application by adding:
-
-* Dynamic product search
-* Category-based filtering
-* Price range filtering
-* Shopping cart functionality
-* Inventory management
-* Discount calculations
-* Product rating and review data
-* API integration
-* Database integration
-* Interactive frontend UI
-
----
-
-# 👨‍💻 Project Type
-
-**JavaScript Learning Project — Arrays & Array Methods**
-
-Built as a practical exercise to strengthen JavaScript fundamentals through real-world e-commerce scenarios.
-
----
-
-## ⭐ Key Takeaway
-
-> **Strong JavaScript fundamentals are built by understanding how data can be transformed, filtered, searched, validated, and processed efficiently.**
-
-This project provides hands-on practice with the most commonly used JavaScript Array methods while applying them to a realistic e-commerce product dataset.
-
-
-# JavaScript Objects
-
-This project focuses on understanding **JavaScript Objects**, one of the most important data structures used to store related information in key-value pairs. The practice covers how objects are created, accessed, updated, copied, and handled dynamically.
-
-## 📁 Project Structure
-
-```text
-Objects/
-├── practice1.js
-├── miniproject.js
-└── README.md
-```
-
-## 📚 Practice
-
-The `practice1.js` file introduces the fundamental concepts of Objects through small practical examples.
-
-### Concepts Covered
-
-* **Object Creation** — Creating structured data using key-value pairs.
-* **Property Access & Update** — Reading and modifying object properties using dot and bracket notation.
-* **Dynamic Properties** — Accessing or updating properties when their names are stored in variables.
-* **Object Methods & `this`** — Adding functions inside objects and working with the current object.
-* **Nested Objects** — Managing objects inside other objects.
-* **Object Destructuring** — Extracting properties into separate variables.
-* **`Object.keys()`, `values()` & `entries()`** — Getting object data dynamically.
-* **Object Copying** — Creating copies using the spread operator and other techniques.
-
-## 🚀 Mini Project — Student Management System
-
-The `miniproject.js` file applies these concepts in a simple **Student Management System**.
-
-The project stores student information such as name, age, email, course, address, and skills. It demonstrates how real-world application data can be organized inside objects and then accessed, updated, copied, and displayed dynamically.
-
-### Features
-
-* Student profile management
-* Dynamic property access
-* Adding and updating properties
-* Nested address information
-* Skills array handling
-* Object destructuring
-* Object keys and values
-* Object copying
-* Formatted student information
-
-## ▶️ How to Run
-
-Make sure Node.js is installed.
-
-```bash
-node practice1.js
-```
-
-Run the mini project with:
-
-```bash
-node miniproject.js
-```
-
-## 🎯 Learning Goal
-
-The goal is to build a strong foundation in JavaScript Objects and understand how structured data is commonly managed in real-world applications such as **users, students, products, orders, and profiles**.
-
-# JavaScript Strings
-
-This project focuses on **JavaScript String manipulation and text processing**. It demonstrates how strings can be cleaned, transformed, searched, extracted, and converted into useful data.
-
-## 📁 Project Structure
-
-```text
-Strings/
-├── practice1.js
-└── README.md
-```
-
-## 📚 Practice — String Analyzer
-
-The `practice1.js` file contains a practical **String Analyzer** that processes a text value using different JavaScript string methods.
-
-### Concepts Covered
-
-* **`trim()`** — Removes unnecessary spaces from the beginning and end.
-* **`length`** — Finds the total number of characters.
-* **`toUpperCase()`** — Converts text into uppercase.
-* **`toLowerCase()`** — Converts text into lowercase.
-* **`includes()`** — Checks whether specific text exists.
-* **`startsWith()`** — Checks how a string begins.
-* **`endsWith()`** — Checks how a string ends.
-* **`replace()`** — Replaces specific text with new text.
-* **`slice()`** — Extracts a specific part of a string.
-* **`split()`** — Converts a string into an array based on a separator.
-* **Template Literals** — Creates clean and dynamic output.
-
-## 🔎 String Analyzer
-
-The analyzer takes a text such as:
-
-```text
-JavaScript is a powerful programming language
-```
-
-and generates useful information including cleaned text, length, uppercase/lowercase versions, text validation results, updated text, extracted words, and total word count.
-
-## ▶️ How to Run
-
-Make sure Node.js is installed.
-
-```bash
-node practice1.js
-```
-
-## 🎯 Learning Goal
-
-The goal is to understand how JavaScript strings are processed in real-world situations such as **form validation, search, user input, text formatting, and data processing**.
-
-# JavaScript Dates, Time & Timers ⏰
-
-A focused JavaScript practice covering **Date & Time handling, date manipulation, time formatting, and timer functions**.
-
-## 📌 Overview
-
-This practice explores how JavaScript works with the `Date` object and how timers can control the execution of code over time.
-
-## 📚 Concepts Covered
-
-### Date & Time
-
-* Creating dates with `new Date()`
-* Extracting day, date, month, and year
-* Extracting hours, minutes, and seconds
-* Converting 24-hour time into 12-hour format
-* Handling `AM / PM`
-
-### Date Manipulation
-
-* Updating dates with `setDate()`
-* Calculating dates before and after a given number of days
-* Working with multiple `Date` objects for independent calculations
-
-### Timers
-
-* `setTimeout()` for delayed one-time execution
-* `setInterval()` for repeated execution
-* `clearInterval()` for stopping intervals
-
-## 💻 Example
+Example:
 
 ```javascript
-let date = new Date();
+const student = {
+    name: "Zain",
+    course: "BSCS",
 
-console.log(date.getDate());
-console.log(date.getMonth() + 1);
-console.log(date.getFullYear());
+    showName() {
+        console.log(`Hello ${this.name}`);
+    }
+};
+
+student.showName();
+console.log(student.course);
 ```
 
-## 🎯 Learning Outcome
+### 10.2 Student Management System — `miniproject.js`
 
-Built a strong foundation in **JavaScript date/time operations and asynchronous timer behavior**, with hands-on practice through console-based programs.
+This exercise stores student information in an object.
 
-## 🚀 Part of
+It demonstrates:
 
-**JavaScript Learning Journey — Building concepts through practical coding.**
+- Student profile information.
+- Nested address data.
+- A skills array.
+- Bracket notation.
+- Updating existing properties.
+- Adding a new property.
+- Object destructuring with renamed variables.
+- Counting properties with `Object.keys()`.
+- Copying and updating an object using the spread operator.
 
+The exercise compares the original student object with a copied object.
 
+## 11. JavaScript Strings
 
+**Folder:** `Strings/`
 
+### String Analyzer — `practice1.js`
+
+This exercise analyzes and manipulates text.
+
+It practices:
+
+- `trim()` to remove extra spaces from the beginning and end.
+- `length` to count characters.
+- `toUpperCase()` to convert text to uppercase.
+- `toLowerCase()` to convert text to lowercase.
+- `includes()` to search for text.
+- `startsWith()` to check the beginning of a string.
+- `endsWith()` to check the ending of a string.
+- `replace()` to replace text.
+- `slice()` to extract part of a string.
+- `split()` to divide text into an array of words.
+- Template literals to combine text and variables.
+
+The program displays the results using `console.log()`.
+
+## 12. Dates, Time, and Timers
+
+**Folder:** `dates_time/`
+
+### 12.1 Date and Time Practice — `practice1.js`
+
+This file practices the JavaScript `Date` object.
+
+Methods and concepts include:
+
+- `new Date()` to create a date object.
+- `getDay()` to get the weekday index.
+- `getDate()` to get the day of the month.
+- `getMonth()` to get the month index.
+- `getFullYear()` to get the year.
+- `getHours()` to get the hour.
+- `getMinutes()` to get the minutes.
+- `getSeconds()` to get the seconds.
+- Formatting time with AM/PM.
+- Changing a date using `setDate()`.
+- Scheduling a callback using `setTimeout()`.
+- Repeating a callback using `setInterval()`.
+- Stopping an interval using `clearInterval()`.
+
+Note: JavaScript's `getMonth()` returns values from `0` to `11`, so add `1` when displaying the month as a normal calendar number.
+
+### 12.2 Digital Dashboard — `miniTask.js`
+
+This mini-task displays date and time information in the console.
+
+It includes:
+
+- The current weekday.
+- The current date and time.
+- A date five days before.
+- A date five days after.
+- A counter that stops after five seconds.
+
+This exercise combines date calculations, formatting, and timers.
+
+## 13. DOM Manipulation
+
+**Folder:** `DOM/`
+
+DOM stands for **Document Object Model**. It allows JavaScript to select and modify HTML elements on a webpage.
+
+The DOM exercise contains three connected files.
+
+### 13.1 HTML — `DOM/index.html`
+
+This file defines the webpage structure, including:
+
+- A title heading.
+- An age heading.
+- Paragraph elements.
+- A content box.
+- A button for toggling a class.
+- A container for a dynamically created paragraph.
+- A disabled submit button.
+
+It loads the JavaScript file to add interactivity and uses CSS to style the page.
+
+### 13.2 JavaScript — `DOM/script.js`
+
+This file demonstrates:
+
+- Selecting elements with `getElementById()`.
+- Selecting elements with `querySelector()`.
+- Selecting multiple elements with `querySelectorAll()`.
+- Updating text with `textContent`.
+- Updating HTML with `innerHTML`.
+- Adding and toggling CSS classes.
+- Handling button clicks with `addEventListener()`.
+- Creating new elements with `createElement()`.
+- Adding elements with `appendChild()`.
+- Removing the `disabled` attribute with `removeAttribute()`.
+
+Example:
+
+```javascript
+const title = document.getElementById("title");
+
+title.textContent = "Hello! I Am Learning DOM JavaScript";
+
+const heading = document.getElementById("heading");
+const toggleButton = document.getElementById("toggleBtn");
+
+toggleButton.addEventListener("click", () => {
+    heading.classList.toggle("highlight");
+});
+```
+
+When the button is clicked, the `highlight` class is added if it is absent and removed if it is already present.
+
+### 13.3 CSS — `DOM/style.css`
+
+This file defines the `.highlight` class, which applies styling such as:
+
+- Text color.
+- Background color.
+- Padding.
+- Rounded corners.
+
+The HTML file also contains inline styling for `.highlight`. If the two styles differ, the browser's CSS cascade determines which rules take effect.
+
+### Running the DOM Exercise
+
+1. Open the `DOM` folder in VS Code.
+2. Open `index.html` in a modern browser.
+3. Click the theme-toggle button.
+4. Inspect the webpage and open the browser developer console to view logged output.
+
+DOM code that uses `document` must run in a browser environment rather than directly through Node.js.
+
+## 14. How to Install and Run the Project
+
+### Step 1: Install the Required Tools
+
+Install the following tools if they are not already installed:
+
+- [Node.js](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- A modern web browser
+- Git, if you want to clone or push the repository
+
+### Step 2: Clone the Repository
+
+Open a terminal and run:
+
+```bash
+git clone https://github.com/zainraaj07/javascript_learning.git
+```
+
+### Step 3: Open the Project
+
+```bash
+cd javascript_learning
+code .
+```
+
+If the `code` command is unavailable, open VS Code manually and select the project folder.
+
+### Step 4: Run a JavaScript File
+
+Use Node.js to run a console-based exercise. For example:
+
+```bash
+node javascript_basics/variables.js
+```
+
+Other examples:
+
+```bash
+node javascript_basics/miniproject.js
+node numbers_math/practice1.js
+node conditions_and_loops/ForLoop.js
+node functions/arrow_function.js
+node Arrays/miniproject.js
+node Objects/miniproject.js
+node Strings/practice1.js
+node dates_time/miniTask.js
+```
+
+Run one file at a time. These are separate practice exercises and may use the same variable names.
+
+### Step 5: Run the DOM Project
+
+Open `DOM/index.html` in your browser. You can also use the VS Code Live Server extension if installed.
+
+Use the browser's developer tools to inspect elements, check the console, and troubleshoot errors.
+
+## 15. Common Errors and Solutions
+
+### Error 1: `document is not defined`
+
+**Cause:** DOM code is being executed directly in Node.js.
+
+**Solution:** Open `DOM/index.html` in a browser and run the script there.
+
+### Error 2: Cannot Find a File
+
+**Cause:** The file path, folder name, or capitalization may be incorrect.
+
+**Solution:** Check the project structure and run the command from the repository root.
+
+### Error 3: Button Does Not Work
+
+**Cause:** The HTML ID may not match the ID selected in JavaScript, or the script may not load.
+
+**Solution:** Check the HTML, JavaScript file path, and browser console.
+
+### Error 4: CSS Changes Do Not Appear
+
+**Cause:** A different CSS rule or inline style may override the expected style.
+
+**Solution:** Inspect the element in browser developer tools and check the CSS cascade.
+
+### Error 5: Unexpected `undefined`
+
+**Cause:** A property or array element may not exist, or a function may not return a value.
+
+**Solution:** Check the property name, array index, and function's return statement.
+
+### Error 6: Timer Output Appears Later
+
+**Cause:** `setTimeout()` and `setInterval()` execute callbacks asynchronously.
+
+**Solution:** Wait for the scheduled time and check that the interval is cleared when required.
+
+## 16. Learning Roadmap
+
+The following checklist summarizes the main concepts represented in the source files.
+
+- [x] Variables and scope
+- [x] Data types
+- [x] Operators and expressions
+- [x] Type conversion
+- [x] Numbers and mathematical operations
+- [x] Conditional statements and `switch`
+- [x] `for`, `while`, and `do...while` loops
+- [x] Nested loops, `break`, and `continue`
+- [x] Function declarations and expressions
+- [x] Parameters, arguments, and return values
+- [x] Arrow functions
+- [x] Default and rest parameters
+- [x] Callback functions
+- [x] Arrays and array methods
+- [x] Objects, methods, and nested objects
+- [x] Object destructuring and spread syntax
+- [x] String methods
+- [x] Date and time operations
+- [x] Timers
+- [x] DOM selection and manipulation
+- [x] HTML and CSS integration
+
+### Suggested Future Topics
+
+These are suggested next steps and are not claimed to be implemented in the current repository.
+
+- [ ] Promises and `async`/`await`
+- [ ] Fetch API and JSON
+- [ ] ES modules (`import` and `export`)
+- [ ] Error handling with `try...catch`
+- [ ] Form validation and additional DOM events
+- [ ] Local storage and session storage
+- [ ] Unit testing and code quality tools
+
+## 17. Repository Practice Guidelines
+
+To continue improving this project:
+
+1. Practice each topic by running the existing files.
+2. Change sample values and observe the output.
+3. Add new exercises to the appropriate topic folder.
+4. Use descriptive filenames.
+5. Test each change before committing it.
+6. Update this README when adding new topics or mini-projects.
+7. Keep passwords, API keys, and other sensitive information out of public repositories.
+
+## 18. Author
+
+**Zain Ijaz**
+
+- GitHub Profile: [@zainraaj07](https://github.com/zainraaj07)
+- GitHub Repository: [javascript_learning](https://github.com/zainraaj07/javascript_learning)
+
+---
+
+Thank you for visiting my JavaScript Learning Repository! 🚀
+
+This project represents my ongoing journey toward becoming a better JavaScript developer through consistent practice, experimentation, and hands-on coding.
